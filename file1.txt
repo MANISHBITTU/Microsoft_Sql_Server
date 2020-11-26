@@ -1,0 +1,38 @@
+   
+
+
+   1.    Create Database [Database_Name]
+   
+
+   2.   Use [database_name]
+
+
+   3.  create table [Table_Name](
+         
+         column-name1 datatype
+         column-name2 datatype
+           .
+           .
+           .
+      
+       )
+
+
+   4.  Alter database [databaseName] Modify Name=[newDatabaseName]
+
+
+   5.   Insert Into [table_name] Values(...,....,.....)
+
+     
+   6.  Update [table_name] SET col1=val1, col2=val2 where condition
+
+ 
+   7.  Delete From [table_name] where contition
+
+
+   8.    # Add foreign key to existing table
+       Alter table [foregin_key_table_name]  Add constraint [NameOfConstraint] Foregin Key(Column_name) references [Another_table_name] (column_name)
+
+
+   9.   #Add default constraint
+       Alter table [table_name] Add constriant [NameOfConstraint] Default (default_value) for [column_name]
